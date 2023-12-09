@@ -16,7 +16,14 @@ const GuardianStorage = artifacts.require("GuardianStorage");
 const ArgentModule = artifacts.require("ArgentModule");
 const Authoriser = artifacts.require("DappRegistry");
 const UniswapV2Router01 = artifacts.require("DummyUniV2Router");
-
+const WalletFactory = artifacts.require("WalletFactory");
+const BaseWallet = artifacts.require("BaseWallet");
+const Registry = artifacts.require("ModuleRegistry");
+const TransferStorage = artifacts.require("TransferStorage");
+const GuardianStorage = artifacts.require("GuardianStorage");
+const ArgentModule = artifacts.require("ArgentModule");
+const Authoriser = artifacts.require("DappRegistry");
+const UniswapV2Router01 = artifacts.require("DummyUniV2Router");
 const ERC20 = artifacts.require("TestERC20");
 const ERC721 = artifacts.require("TestERC721");
 const CK = artifacts.require("CryptoKittyTest");
