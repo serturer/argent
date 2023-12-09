@@ -3,3 +3,8 @@
     "allowUnreachableCode": true
   }
 }
+{
+  "compilerOptions": {
+    "allowUnreachableCode": true
+  }
+}
