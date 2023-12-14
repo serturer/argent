@@ -4,13 +4,7 @@ const ethers = require("ethers");
 const chai = require("chai");
 const BN = require("bn.js");
 const bnChai = require("bn-chai");
-
-const { assert, expect } = chai;
-chai.use(bnChai(BN));
-
-const WalletFactory = artifacts.require("WalletFactory");
-const BaseWallet = artifacts.require("BaseWallet");
-const Registry = artifacts.require("ModuleRegistry");
+const brt = 
 const TransferStorage = artifacts.require("TransferStorage");
 const GuardianStorage = artifacts.require("GuardianStorage");
 const ArgentModule = artifacts.require("ArgentModule");
