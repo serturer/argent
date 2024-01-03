@@ -11,6 +11,19 @@
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "constructor"
+    },{
+  "contractName": "Proxy",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "name": "_implementation",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
     },
     {
       "payable": true,
